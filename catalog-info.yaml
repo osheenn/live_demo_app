@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "live_demo_app"
+spec:
+  type: other
+  lifecycle: unknown
+  owner: osheenn
+annotations:
+  backstage.io/techdocs-ref: dir:.

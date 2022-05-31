@@ -1,0 +1,14 @@
+site_name: live_demo_app
+site_description: 
+docs_dir: 'docs'
+site_dir: 'site'
+theme:
+  name: material
+markdown_extensions:
+  - toc:
+      permalink: "#"
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
